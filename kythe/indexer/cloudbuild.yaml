@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/jonjohnson-test/kythe/indexer', '.' ]
+images:
+- 'gcr.io/jonjohnson-test/kythe/indexer'
